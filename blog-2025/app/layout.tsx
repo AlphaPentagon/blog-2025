@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Navigation from "@/components/Navigation";
+import Sidebar from "@/components/Sidebar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,10 @@ export default function RootLayout({
       >
         <Header />
         <Navigation />
-        <main>{children}</main>
+        <div className="grid grid-cols-1 sm:grid-cols-[1fr_300px] gap-8">
+          <main className="min-h-screen mx-auto py-2">{children}</main>
+          <Sidebar />
+        </div>
       </body>
     </html>
   );

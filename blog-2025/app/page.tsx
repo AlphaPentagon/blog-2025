@@ -1,3 +1,5 @@
 export default function HomePage() {
-  return;
+  return (
+    <p>This is my home page. What should I have on it?</p>
+  );
 }

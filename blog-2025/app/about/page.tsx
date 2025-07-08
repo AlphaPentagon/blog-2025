@@ -1,3 +1,5 @@
 export default function AboutPage() {
-  return;
+  return (
+    <p>This is my about page. What should I have on it?</p>
+  );
 }

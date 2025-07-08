@@ -1,3 +1,5 @@
 export default function BlogsPage() {
-  return;
+  return (
+    <p>This is my blogs page. What should I have on it?</p>
+  );
 }

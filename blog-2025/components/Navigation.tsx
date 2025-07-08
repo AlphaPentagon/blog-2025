@@ -9,8 +9,8 @@ export default function Navigation() {
   // Set active page.
 
   return (
-    <nav className="bg-green-300 flex justify-center">
-      <div className="flex justify-around w-lg pb-4">
+    <nav className="bg-green-200 flex justify-center">
+      <div className="flex justify-around w-md py-2">
         <NavLink href="/" pathname={pathname} label="Home" />
         <NavLink href="/blogs" pathname={pathname} label="Blogs" />
         <NavLink href="/about" pathname={pathname} label="About" />

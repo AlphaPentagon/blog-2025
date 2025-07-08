@@ -11,7 +11,7 @@ export default function Header() {
 
     switch (path) {
       case '/':
-        return 'NextJS and Strapi Blog 2025';
+        return 'Webdev blog';
       case '/about':
         return 'About';
       case '/blogs':
@@ -24,7 +24,7 @@ export default function Header() {
   const title = getPageTitle(pathname);
 
   return (
-    <header className="bg-green-300">
+    <header className="bg-green-200">
       <h1 className="text-8xl text-center p-10">{title}</h1>
     </header>
   )
