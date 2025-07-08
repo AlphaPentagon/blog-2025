@@ -5,5 +5,5 @@ type BlogPostPageProps = {
 }
 
 export default function BlogpostPage({ params }: BlogPostPageProps) {
-  return <h1>Blog: {params.slug}</h1>;
+  return;
 }
