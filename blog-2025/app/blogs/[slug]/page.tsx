@@ -4,6 +4,6 @@ type BlogPostPageProps = {
   };
 }
 
-export default function BlogpostPage({ params }: BlogPostPageProps) {
+export default function BlogpostPage() {
   return;
 }
