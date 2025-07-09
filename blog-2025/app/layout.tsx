@@ -32,8 +32,8 @@ export default function RootLayout({
       >
         <Header />
         <Navigation />
-        <div className="grid grid-cols-1 sm:grid-cols-[1fr_300px] gap-8">
-          <main className="min-h-screen mx-auto py-2">{children}</main>
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_350px] gap-2 bg-green-100">
+          <main className="min-h-screen p-4">{children}</main>
           <Sidebar />
         </div>
       </body>

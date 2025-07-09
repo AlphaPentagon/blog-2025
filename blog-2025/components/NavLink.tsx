@@ -8,7 +8,7 @@ type NavLinkProps = {
 
 export default function NavLink({ href, label, pathname }: NavLinkProps) {
   const isActive = pathname === href || (href === '/blogs' && pathname.startsWith("/blogs/"));
-  const classes = `text-xl ${isActive ? 'font-bold underline' : ''}`;
+  const classes = `text-xl hover:font-bold hover:underline ${isActive ? 'font-bold underline' : ''}`;
 
   return (
     <Link

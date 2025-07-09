@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <header className="bg-green-200">
-      <h1 className="text-8xl text-center p-10">{title}</h1>
+      <h1 className="text-8xl text-center pt-10 pb-5">{title}</h1>
     </header>
   )
 }
